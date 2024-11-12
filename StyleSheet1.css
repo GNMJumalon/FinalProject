@@ -1,5 +1,5 @@
 ﻿body {
-  background-color: lightblue;
+  background-color: LightBlue;
 }
 
 
@@ -8,7 +8,7 @@
 position:absolute;
 z-index:30;
 text-align: center;
-top: 300px;
+top: 320px;
 left: 50px;
 right: 50px
 
@@ -29,8 +29,8 @@ h1
 .Navright
 {
 	padding: 60px;
-	
-	background: #1abc9c;
+	text-align: center;
+	background: #1E90FF;
 	color: white;
 	font-size: 30px;
 }
@@ -96,7 +96,6 @@ p1
 {
 	text-align: right;
 }
-
 
 
 

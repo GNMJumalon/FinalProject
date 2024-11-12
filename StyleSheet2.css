@@ -1,5 +1,6 @@
 ﻿body {
-  background-color: AliceBlue;
+ background-color: LightCyan;
+  
 }
 
 
@@ -8,7 +9,7 @@
 position:absolute;
 z-index:30;
 text-align: center;
-top: 330px;
+top: 320px;
 left: 50px;
 right: 50px
 
