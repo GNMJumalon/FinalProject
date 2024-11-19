@@ -1,14 +1,14 @@
 ﻿body {
   background-color: LightBlue;
 }
-img
+div.focalor
 {
 transition-property: transform;
 transition-duration: 2s;
 transition-timing-function: ease-in-out;
 }
 
-img:hover 
+focalors:hover 
 {
 	transform: scale(.75);
 }
