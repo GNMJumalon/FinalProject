@@ -12,7 +12,14 @@ top: 320px;
 left: 50px;
 right: 50px
 
+
 }
+
+img.water 
+{
+
+}
+
 .Navtitle
 {
 	padding: 60px;
@@ -97,7 +104,16 @@ p1
 	text-align: right;
 }
 
+img.focalor
+{
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease-in-out;
+}
 
+img.focalor:hover {
+	transform: scale(.75);
+}
 
 
 .why
