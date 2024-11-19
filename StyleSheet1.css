@@ -104,14 +104,14 @@ p1
 	text-align: right;
 }
 
-.focalor img
+.focalor
 {
 transition-property: transform;
 transition-duration: 2s;
 transition-timing-function: ease-in-out;
 }
 
-.focalor img:hover {
+.focalor:hover {
 	transform: scale(.75);
 }
 
