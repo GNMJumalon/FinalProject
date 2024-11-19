@@ -1,7 +1,17 @@
 ﻿body {
   background-color: LightBlue;
 }
+img
+{
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease-in-out;
+}
 
+img:hover 
+{
+	transform: scale(.75);
+}
 
 .water
 {
@@ -104,16 +114,7 @@ p1
 	text-align: right;
 }
 
-.focalor
-{
-transition-property: transform;
-transition-duration: 2s;
-transition-timing-function: ease-in-out;
-}
 
-.focalor:hover {
-	transform: scale(.75);
-}
 
 
 .why
