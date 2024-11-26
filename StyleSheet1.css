@@ -16,10 +16,7 @@ right: 50px
 
 }
 
-img.water 
-{
 
-}
 
 .Navtitle
 {
@@ -184,6 +181,19 @@ border: 1px solid;
 	color: white;
 	font-size: 20px;
 }
+
+.sprite {
+	background: url('icon.png') no-repeat -54px -129px;
+	width: 33px;
+	height: 33px;
+	}
+
+	
+.sprite:hover {
+	background: url('icon.png') no-repeat -54px -55px;
+	width: 33px;
+	height: 33px;
+	}
 
 .footer
 {

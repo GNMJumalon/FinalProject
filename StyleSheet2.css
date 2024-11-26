@@ -54,9 +54,16 @@ a
 }
 
 img {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  }
+  img:hover
+  {
+	  transform: scale(.75);
+  }
 
 .waterA
 {
@@ -171,10 +178,27 @@ border: 1px solid;
 	font-size: 20px;
 }
 
+.sprite {
+	background: url('icon.png') no-repeat -54px -129px;
+	width: 33px;
+	height: 33px;
+	}
+
+	
+.sprite:hover {
+	background: url('icon.png') no-repeat -54px -55px;
+	width: 33px;
+	height: 33px;
+	}
+
 .footer
 {
+
+
 	padding: 20px;
 	text-align: center;
 	background: #00CED1;
 	color: white;
 	font-size: 20px;
+}
+
